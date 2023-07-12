@@ -4,9 +4,11 @@ Unity3d for VR-based rendering
 
 https://unity.cn/releases
 
-2、Pcx for point-cloud redering:
+2、Pcx for point-cloud rendering:
 
-The asset can be access at:
+The asset can be accessed at:
 
 https://github.com/keijiro/Pcx
 
+
+Further supplementation and clarification are required in this area.
