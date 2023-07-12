@@ -43,6 +43,7 @@ catkin_make -j1
 
 
 II. Usage for RTAB-Map:
+
 1、Run the Kinect V2 command:
 
 roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true
@@ -54,6 +55,7 @@ rosrun tf static_transform_publisher 0 0 0 -1.5707963267948966 0 -1.570796326794
 ///rosrun tf static_transform_publisher 0 0 0 -1.5707963267948966 0 -1.5707963267948966 camera_link kinect2_rgb_optical_frame  100  
  
 3、Launch rtabmap_ros：
+
 roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start" rgb_topic:=/kinect2/qhd/image_color_rect depth_topic:=/kinect2/qhd/image_depth_rect camera_info_topic:=/kinect2/qhd/camera_info
 
 ///roslaunch rtabmap_ros rgbd_mapping_kinect2.launch resolution:=qhd
