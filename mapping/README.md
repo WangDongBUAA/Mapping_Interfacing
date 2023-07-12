@@ -1,4 +1,6 @@
-Install and Compliation for RTAB-Map:
+The install and usage for RTAB-Map are recorded here:
+
+I. Install and Compilation for RTAB-Map:
 The detailed information can be found in https://github.com/introlab/rtabmap_ros#installation
 
 1、Instal the ros packages:
@@ -40,7 +42,7 @@ catkin_make -j1
 
 
 
-Usage for RTAB-Map:
+II. Usage for RTAB-Map:
 1、Run the Kinect V2 command:
 
 roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true
